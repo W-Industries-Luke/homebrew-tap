@@ -1,28 +1,28 @@
 class Sshc < Formula
   desc "Answer ssh, scp, sftp and rsync password prompts from a stored secret"
   homepage "https://github.com/W-Industries-Luke/sshc"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.1/sshc-darwin-arm64"
-      sha256 "5ffaa2ac0ad187aa742093cb9ebfb6e3d4ee0b00749de4cf9c249ad0450f8705"
+      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.2/sshc-darwin-arm64"
+      sha256 "f98c2a8eac0e3f802c4543f115ffbd9ecdf62fef1994ec06cfeec7b55fd32882"
     end
     on_intel do
-      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.1/sshc-darwin-amd64"
-      sha256 "18dff017e6cb278accd7c6ed64ee3d9b0dbf539b7e81d000ad7c5da5150ce5e8"
+      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.2/sshc-darwin-amd64"
+      sha256 "30a262cceeb104b6b94f2d6cc6c27c6fdda1c356be7999cd16bc0b5a01b35364"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.1/sshc-linux-arm64"
-      sha256 "64601be2a1ac82d5de9200cc2d8d0c40868bab60c8c816f049fd55b5879e48f6"
+      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.2/sshc-linux-arm64"
+      sha256 "bd6283158f2d3542eca16bdbdefe1fb97c43798404e9f88370ad0bb95d5aad9c"
     end
     on_intel do
-      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.1/sshc-linux-amd64"
-      sha256 "db27b3c5067d3779c8481ce60b5516b53eda619a7f140f7295593890572dfb95"
+      url "https://github.com/W-Industries-Luke/sshc/releases/download/v0.3.2/sshc-linux-amd64"
+      sha256 "5b4480955c77ba6ec1c5d3b5e86666e8dc3ad1fd1a0ed79295167c596928a421"
     end
   end
 
